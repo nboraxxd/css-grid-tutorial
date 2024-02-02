@@ -21,6 +21,11 @@
   - Add 10px gaps between the rows and columns
 
   /* ⬇️⬇️⬇️ STYLE THE GRID CONTAINER HERE ⬇️⬇️⬇️ */
+  display: grid;
+  /* grid-template-rows: repeat(7, 1fr);
+  grid-template-columns: repeat(3, 1fr); */
+  grid-template: repeat(7, 1fr) / repeat(3, 1fr);
+  gap: 10px;
 
   /* ⬆️⬆️⬆️ STYLE THE GRID CONTAINER HERE ⬆️⬆️⬆️ */
 }
