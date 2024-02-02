@@ -18,6 +18,6 @@
 
 
   /* ⬇️⬇️⬇️ STYLE THE GRID CONTAINER HERE ⬇️⬇️⬇️ */
-
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
   /* ⬆️⬆️⬆️ STYLE THE GRID CONTAINER HERE ⬆️⬆️⬆️ */
 }
