@@ -20,12 +20,14 @@
 #pinkbox {
   background-color: #e91e63;
   /* ⬇️⬇️⬇️ STYLE THE PINK BOX HERE ⬇️⬇️⬇️ */
-
+  grid-row: 1 / span 4; 
+  grid-column: 1 / 2;
   /* ⬆️⬆️⬆️ STYLE THE PINK BOX HERE ⬆️⬆️⬆️ */
 }
 #purplebox {
   background-color: #9c27b0;
   /* ⬇️⬇️⬇️ STYLE THE PURPLE BOX HERE ⬇️⬇️⬇️ */
-
+  grid-row: 3 / span 3;
+  grid-column: 4 / span 2;
   /* ⬆️⬆️⬆️ STYLE THE PURPLE BOX HERE ⬆️⬆️⬆️ */
 }
