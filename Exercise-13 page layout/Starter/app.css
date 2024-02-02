@@ -27,34 +27,39 @@
 .header {
   background-color: #f44336bb;
   /* ⬇️⬇️⬇️ STYLE THE HEADER HERE ⬇️⬇️⬇️ */
-
+  grid-row: 1 / span 1;
+  grid-column: 1 / span 5;
   /* ⬆️⬆️⬆️ STYLE THE HEADER HERE ⬆️⬆️⬆️ */
 }
 
 .nav {
   background-color: #e91e63bb;
   /* ⬇️⬇️⬇️ STYLE THE NAV HERE ⬇️⬇️⬇️ */
-
+  grid-row: 2 / span 3;
+  grid-column: 1 / 2;
   /* ⬆️⬆️⬆️ STYLE THE NAV HERE ⬆️⬆️⬆️ */
 }
 
 .article {
   background-color: #9c27b0bb;
   /* ⬇️⬇️⬇️ STYLE THE ARTICLE HERE ⬇️⬇️⬇️ */
-
+  grid-row: 2 / span 2;
+  grid-column: 2 / span 3;
   /* ⬆️⬆️⬆️ STYLE THE ARTICLE HERE ⬆️⬆️⬆️ */
 }
 
 .ads {
   background-color: #673ab7bb;
   /* ⬇️⬇️⬇️ STYLE THE ADS HERE ⬇️⬇️⬇️ */
-
+  grid-row: 2 / span 2;
+  grid-column: 5 / span 1;
   /* ⬆️⬆️⬆️ STYLE THE ADS HERE ⬆️⬆️⬆️ */
 }
 
 .footer {
   background-color: #2196f3bb;
   /* ⬇️⬇️⬇️ STYLE THE FOOTER HERE ⬇️⬇️⬇️ */
-
+  grid-row: 4 / span 1;
+  grid-column: 2 / span 4;
   /* ⬆️⬆️⬆️ STYLE THE FOOTER HERE ⬆️⬆️⬆️ */
 }
