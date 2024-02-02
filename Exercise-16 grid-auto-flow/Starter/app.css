@@ -27,6 +27,6 @@ body {
   grid-template-rows: repeat(5, 1fr);
   gap: 2px;
   /* ⬇️⬇️⬇️ STYLE THE GRID CONTAINER HERE ⬇️⬇️⬇️ */
-
+  grid-auto-flow: column dense;
   /* ⬆️⬆️⬆️ STYLE THE GRID CONTAINER HERE ⬆️⬆️⬆️ */
 }
